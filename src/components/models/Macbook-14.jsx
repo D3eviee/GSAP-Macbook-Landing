@@ -24,7 +24,7 @@ export default function MacbookModal14(props) {
       if(child.isMesh){
         if(!noChangeParts.includes(child.name)){
           child.material.color = new Color(color)
-        }
+        } 
       }
     })
 
